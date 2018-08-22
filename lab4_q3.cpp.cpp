@@ -8,7 +8,7 @@ int main ()
 	cout << "\n\n Convert the temp in F into C :\n";
 	cout << " Write the temperature in Farhaneit : " ;
 	cin >> F;
-	C = ((5/9)*F - 32);
+	C = ((5.0)/(9.0))*F - 32;
 	cout << " The temp in Celsius is : "<< C << endl;
 	return 0;
 	}
